@@ -88,7 +88,8 @@ footer {
   color: var(--color2);
 }
 
-.about {
+.about,
+.shedule {
   background-color: #eee;
 }
 
@@ -116,6 +117,16 @@ footer {
 }
 
 .forwhom h5 {
-padding: 50px;
-border: 3px solid var(--color1);
+  padding: 50px;
+  border: 3px solid var(--color1);
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-white);
+  background-color: var(--color2);
+}
+
+.learning h5 {
+  padding: 25px;
+  border: 3px solid var(--color1);
 }
